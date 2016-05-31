@@ -11,4 +11,8 @@ describe('App' , () => {
   it('shows a comment box', () => {
     expect(component.find('.comment-box')).to.exist; // Look for some HTML with the correct class using jquery.
   });
+  
+  it('shows a comment list', () => {
+    expect(component.find('.comment-list')).to.exist;
+  });
 });
